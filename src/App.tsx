@@ -1,8 +1,10 @@
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <p>Start prompting (or editing) to see magic happen :)</p>
-    </div>
+    <iframe
+      src="/mycipher-trading-copilot.html"
+      style={{ width: '100%', height: '100vh', border: 'none', display: 'block' }}
+      title="MyCipher Trading Co-Pilot"
+    />
   );
 }
 
